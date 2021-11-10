@@ -1,0 +1,41 @@
+Andres Morales
+
+Questions
+================
+
+1.
+  a. curl -X POST http://localhost:8080/function/slack-interactive -d '{"a":"b"}'
+  b. sudo faas-cli invoke slack-interactive
+
+  
+2.
+Reading from STDIN - hit (Control + D) to stop.
+a
+{"text": "Serverless Message", "attachments": [{"fields": [{"short": true, "value": "100", "title": "Amazing Level"}], "author_icon": "", "image_url": "https://avatars.githubusercontent.com/u/12155310?v=4
+", "author_name": "andresjmorales", "title": "The Awesome world of Cloud Computing! COEN 241"}, {"text": "COEN 241 is the most awesome class ever!.", "title": "About COEN 241"}, {"title": "Would you recom
+mend COEN 241 to your friends?", "color": "#3AA3E3", "actions": [{"text": "Of Course!", "type": "button", "name": "recommend", "value": "recommend"}, {"text": "Most Definitely!", "type": "button", "name":
+"definitely", "value": "definitely"}], "callback_id": "response123", "fallback": "Would you recommend COEN 241 to your friends?", "attachment_type": "default"}]}
+
+  
+  
+3.
+  a. curl -X POST http://localhost:8080/function/slack-request -d "a"
+  b. sudo faas-cli invoke slack-request
+
+
+4.
+Reading from STDIN - hit (Control + D) to stop.
+{"a":"b"}            
+{"attachments": [{"footer": "Slack Apps built on OpenFaas", "author_link": "https://github.com/andresjmorales/coen241hw2", "color": "#36a64f", "text": "Head over to COEN 241", "title": "COEN 241", "ts": 1
+23456789, "author_name": "", "title_link": "https://www.scu.edu/engineering/academic-programs/department-of-computer-engineering/graduate/course-descriptions/", "image_url": "https://www.scu.edu/media/off
+ices/umc/scu-brand-guidelines/visual-identity-amp-photography/visual-identity-toolkit/logos-amp-seals/Mission-Dont3.png", "response_type": "ephemeral", "replace_original": true, "footer_icon": "https://a.
+slack-edge.com/45901/marketing/img/_rebrand/meta/slack_hash_256.png", "pretext": "Ahh yeah! Great choice, COEN 241 is absolutely amazing!", "fallback": "Required plain-text summary of the attachment.", "t
+humb_url": "https://www.scu.edu/engineering/academic-programs/department-of-computer-engineering/graduate/course-descriptions/", "author_icon": "https://avatars.githubusercontent.com/u/12155310?v=4"}]}
+
+
+5.
+Pass different arguments into STDIN or with echo
+
+
+6.
+In the Python code, add a conditional based on the text input parameter "req"
