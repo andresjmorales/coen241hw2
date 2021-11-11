@@ -3,3 +3,5 @@ journal.png - running the journalctl command
 openfaas.png - openfaas ui after deploying all three functions
 slack-interactive.png - invoking the slack-interactive function
 slack-request.png - invoking the slack-request function 
+
+slack1.png & slack2.png - extra credit of bot working in slack web

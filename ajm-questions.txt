@@ -39,3 +39,8 @@ Pass different arguments into STDIN or with echo
 
 6.
 In the Python code, add a conditional based on the text input parameter "req"
+
+
+EXTRA CREDIT
+Here is the link to my slack app (uses ngrok link) but I can't make this link public, let me know if you need more information.
+https://api.slack.com/apps/A02M0CZNYSY/app-home
